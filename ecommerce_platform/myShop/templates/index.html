@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Shopping System</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Poppins", sans-serif;
+        background: #f1f3f6;
+        color: #333;
+      }
+      .top-banner {
+        background: chocolate;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        font-size: 10px;
+      }
+      .navbar {
+        background: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 50px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        position: sticky;
+        z-index: 1000;
+      }
+
+    .logo{ 
+        font-size:1.8rem;
+        font-weight:700;
+        color:brown;
+    }
+
+    .search-box{
+        display:flex;
+        flex:1;
+        max-width:500px;
+        margin:0 20px;
+    }
+    
+    </style>
+  </head>
+  <body>
+    <header class="top-banner">
+      <h1>Online Shopping System</h1>
+    </header>
+
+    <nav class="navbar">
+      <div class="logo">myShop🛍️</div>
+      <div class="search-box">
+        <input type="text" placeholder="Search Products " />
+        <button>🔍</button>
+      </div>
+
+      <div nav-menu>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Products</a>
+        <a href="#">Register</a>
+        <a href="#">Login</a>
+        <a href="#">Contact</a>
+
+        <div class="cart-icon">
+          🛒Cart
+          <span id="cartCount">0</span>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Mega Electronic Sale</h1>
+        <p>Shop the latest gadgets at unbeatable prices.</p>
+        <button>Shop now</button>
+      </div>
+    </section>
+  </body>
+</html>

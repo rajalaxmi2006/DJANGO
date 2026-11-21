@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center">This is my landing page</h1>
+    <h2>{{ name|upper }}  </h2>            template variable filter
+    <h2>{{ branch }}  </h2>
+    <h2>{{ marks }}  </h2>
+    <h4>{{ marks.0 }}</h4>                  accessing index using .
+    <h4>{{ marks.1 }}</h4>
+    <h4>{{ marks.4 }}</h4>
+    <h2>{{ address }}</h2>
+    <h4>{{ address.at.upper }}</h4>         function call with 0 arguments
+    <h2>{{ email }}</h2>                    empty nothing will be there
+</body>
+</html>
